@@ -165,19 +165,19 @@ def recorrer(lista):
     for x in lista:
         print(x)
 tupla = (13, 1, 8, 3, 2, 5, 8)
-recorrer(menor_cinco(tupla))
+#recorrer(menor_cinco(tupla))
 
 #Ejercicio 17: Crear un script que encuentre la potencia de un número ingresado por el teclado
 def potencia():
     num1 = int(input("Proporciona un numero \n"))
     num2 = int(input("Proporciona la potencia \n"))
     return pow(num1,num2)
-print(potencia()) 
+#print(potencia()) 
 
 #Ejercicio 18: Dado dos números enteros, encontrar la suma
 
-def suma(num1,num2):
-    return num1+num2
+def suma(a,b):
+    return a+b
 print(suma(4,9))
 
 
